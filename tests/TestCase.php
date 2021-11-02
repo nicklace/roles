@@ -71,9 +71,9 @@ class TestCase extends Orchestra
      */
     protected function setUpDatabase($app)
     {
-        include_once __DIR__ . '/../database/migrations/create_roles_table.php';
+        /*include_once __DIR__ . '/../database/migrations/create_roles_table.php';
         include_once __DIR__ . '/../database/migrations/create_role_user_table.php';
         (new \CreateRolesTable())->up();
-        (new \CreateRoleUserTable())->up();
+        (new \CreateRoleUserTable())->up();*/
     }
 }
